@@ -16,7 +16,7 @@ export default function AppRouter(){
     return(
         <Router>
             <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="/" element={<Home />} exact />
                 {examplesRoutes.map((r) => 
                     <Route 
                         path={r.path}
