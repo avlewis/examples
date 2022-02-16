@@ -7,7 +7,7 @@ export default function Home(){
         <div className={styles.body}>
             <div className={styles.container}>
                 <div className={styles.hero}>
-                    <h3>Examples</h3>
+                    <h3>App Examples</h3>
                     {examplesRoutes.map((e) => 
                         <Link to={e.path}>{e.name}</Link>
                     )}
