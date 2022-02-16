@@ -1,0 +1,10 @@
+.navbar {
+    width: 100%;
+    background-color: var(--adoblue);
+    color: white;
+    padding: 1em;
+}
+
+.navbar_link {
+    color: white;
+}

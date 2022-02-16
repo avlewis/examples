@@ -1,0 +1,35 @@
+.body {
+    background-color: var(--adoblue);
+    color: white;
+
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.hero {
+
+    height: 50%;
+    width: 75%;
+    max-width: 500px;
+    border: 2px solid white;
+    padding: 1em;
+    color: var(--adoblue);
+
+    background-color: #fefefefe;
+    border-radius: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}

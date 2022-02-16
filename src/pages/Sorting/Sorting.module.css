@@ -1,0 +1,46 @@
+.card {
+    border: 1px solid rgba(160, 160, 160, 0.603);
+    border-radius: 10px;
+}
+
+.card_content {
+
+    padding:1em;
+
+    display: grid;
+    grid-template-rows: 75px 1fr;
+    grid-template-columns: 250px;
+}
+.card_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card_container > * {
+    margin: 5px;
+}
+
+.avatar {
+    height: 50px;
+    width: 50px;
+    background-color: lightgray;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: gray;
+    font-weight: 700;
+    font-size: x-large;
+    
+}
+
+.searchBar {
+    padding: 0.5rem;
+    margin: 2em;
+    border: var(--adoblue) solid 2px;
+    border-radius: 10px;
+    text-align: center;
+}
+
